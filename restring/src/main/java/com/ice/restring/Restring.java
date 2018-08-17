@@ -91,7 +91,6 @@ public abstract class Restring {
     private static void initViewTransformer() {
         viewTransformerManager = new ViewTransformerManager();
         viewTransformerManager.registerTransformer(new TextViewTransformer());
-        viewTransformerManager.registerTransformer(new ToolbarTransformer());
         viewTransformerManager.registerTransformer(new SupportToolbarTransformer());
         viewTransformerManager.registerTransformer(new BottomNavigationViewTransformer());
     }
